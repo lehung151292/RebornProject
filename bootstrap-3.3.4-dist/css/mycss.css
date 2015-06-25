@@ -1,4 +1,34 @@
-.jumbotron {
+body {
 	background-image: url('../img/header.jpg');
-
+	background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.navbar {
+	background: rgba(0,0,0,0.4);
+}
+.navbar .navbar-brand {
+	text-transform: uppercase;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-weight: 700;
+	color: #FDFBFA;
+}
+.navbar .navbar-collapse {
+	text-transform: uppercase;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-weight: 700;
+	color: #FDFBFA;
+}
+.containter {
+	padding-top: 100px;
+}
+.header-content-inner {
+	width: 800px;
+	margin: 0 auto;
+}
+.header-title {
+	color: white;
+	font-size: 55px;
 }
