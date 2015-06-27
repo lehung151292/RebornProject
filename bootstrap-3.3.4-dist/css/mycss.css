@@ -7,27 +7,22 @@ body {
     -o-background-size: cover;
 }
 .navbar {
-	background: rgba(0,0,0,0.4);
-	opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+	background: rgba(54, 25, 25, .00004);	
 }
 .navbar .navbar-brand {
 	text-transform: uppercase;
 	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-weight: inherit;
-	color: #FDFBFA;
+	color: #DBD3CF;
 }
-.navbar .navbar-collapse {
+.navbar .navbar-nav>li>a {
 	text-transform: uppercase;
 	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-	font-weight: inherit;
-	color: #FDFBFA;
+	font-weight: bolder;
+	color: #DBD3CF;
 }
 .containter {
 	padding-top: 100px;
-}
-.container-fluid {
-	padding-top: auto;
 }
 .header-content-inner {
 	width: 800px;
