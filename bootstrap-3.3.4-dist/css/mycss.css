@@ -26,10 +26,13 @@ body {
 	font-weight: bold;
 	width: 800px;
 	margin: 0 auto;
+	text-align: center;
 }
 .header-title {
+	padding-top: 90px;
 	color: white;
-	font-size: 55px;
+	font-size: 52px;
+	font-weight: bold;
 }
 @media (min-width: 1000px)
 header {
@@ -41,4 +44,16 @@ header {
   min-height: auto;
   text-align: center;
   color: #fff;
+}
+.containter-fluid .header-content-inner>hr{
+  max-width: 55px;
+  border-color: #f05f40;
+  border-width: 3px;
+}
+.containter-fluid .header-content-inner>p{
+	color: rgba(255,255,255,.7);
+	margin: inherit;
+	width: 650px;
+	font-weight: lighter;
+    font-size: 16px;
 }
