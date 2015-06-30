@@ -24,14 +24,14 @@ body {
 .containter-fluid .header-content-inner {
 	padding-top: 100px;
 	font-weight: bold;
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
 	text-align: center;
 }
 .header-title {
 	padding-top: 90px;
 	color: white;
-	font-size: 52px;
+	font-size: 63px;
 	font-weight: bold;
 }
 @media (min-width: 1000px)
@@ -53,7 +53,24 @@ header {
 .containter-fluid .header-content-inner>p{
 	color: rgba(255,255,255,.7);
 	margin: inherit;
-	width: 650px;
+	margin-bottom: 50px;
+	width: 800px;
 	font-weight: lighter;
-    font-size: 16px;
+    font-size: 20px;
+}
+.btn-primary {
+	background-color: #f05f40;
+	border-color: #f05f40;
+}
+.btn-primary:hover{
+	background-color: #EF3912;
+	border-color: #f05f40;
+}
+.btn {
+  border: 0;
+  border-radius: 300px; /* lam button thanh hinh tron */
+  text-transform: uppercase;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 700;
+  padding: 15px 25px;
 }
