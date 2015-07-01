@@ -1,9 +1,13 @@
-body {
+/*body {
 	background-image: url('../img/header.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}*/
+html, body {
+  width: 100%;
+  height: 100%;
 }
 .navbar {
 	background: rgba(54, 25, 25, .00004);	
@@ -41,13 +45,24 @@ header {
 header {
   position: relative;
   width: 100%;
+  height: 100%;
   min-height: auto;
   text-align: center;
   color: #fff;
+    background-image: url('../img/header.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
 }
-.containter-fluid .header-content-inner>hr{
+hr{
   max-width: 55px;
   border-color: #f05f40;
+  border-width: 4px;
+}
+hr.white{
+  max-width: 55px;
+  border-color: #fff;
   border-width: 3px;
 }
 .containter-fluid .header-content-inner>p{
@@ -66,6 +81,11 @@ header {
 	background-color: #EF3912;
 	border-color: #f05f40;
 }
+.btn-default{
+	background-color: #fff;
+	border-color: #fff;
+	margin-top: 5px;
+}
 .btn {
   border: 0;
   border-radius: 300px; /* lam button thanh hinh tron */
@@ -73,4 +93,19 @@ header {
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-weight: 700;
   padding: 15px 25px;
+}
+.bg-primary{
+	background-color: #f05f40;
+}
+section {
+	padding: 100px 0;
+}
+.section1{
+	margin-top: 0px;
+	font-size: 35px;
+}
+.container .row .text-center>p{
+	font-size: 17px;
+	font-weight: lighter;
+	font-family: cursive;
 }
