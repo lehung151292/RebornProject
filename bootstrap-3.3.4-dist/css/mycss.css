@@ -109,3 +109,19 @@ section {
 	font-weight: lighter;
 	font-family: cursive;
 }
+.service{
+	margin: 50px auto 0;
+}
+@media(min-width: 992px){
+ .service {
+	margin: 20px auto 0;
+	}
+}
+.icolor{
+	color: #f05f40;
+}
+.service>p {
+	font-family: cursive;
+	color: #777;
+	font-size: 16px;
+}
