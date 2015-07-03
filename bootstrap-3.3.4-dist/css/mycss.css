@@ -125,3 +125,12 @@ section {
 	color: #777;
 	font-size: 16px;
 }
+.row.no-gutter > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.abox {
+  display: block;
+  margin: 0 auto;
+  max-width: 650px;
+  }
