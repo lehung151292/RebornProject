@@ -48,7 +48,6 @@ header {
 }*/
 header {
   position: relative;
-  width: 100%;
   height: 100%;
   min-height: auto;
   text-align: center;
@@ -73,7 +72,7 @@ hr.white{
 	color: rgba(255,255,255,.7);
 	margin: inherit;
 	margin-bottom: 50px;
-	width: 800px;
+	width: auto;
 	font-weight: lighter;
     font-size: 20px;
 }
@@ -85,7 +84,7 @@ hr.white{
 	background-color: #EF3912;
 	border-color: #f05f40;
 }
-.btn-primary:target {
+.btn-primary:active {
 	background-color: #EF3912;
 	border-color: #f05f40;
 }
@@ -123,6 +122,12 @@ section {
 @media(min-width: 992px){
  .service {
 	margin: 20px auto 0;
+	}
+}
+
+@media(min-width: 992px){
+ .navbar-right" {
+	display: none;
 	}
 }
 .icolor{
@@ -163,3 +168,23 @@ aside.bg-primary {
 	background-color: #FFFAF9;
 	color: #222;
 }
+.cover-image{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+.cover-image:hover{
+	background-color: orange;
+	opacity: 0.9;
+}
+.cover-image:hover .cover-image-content{
+	display: block;
+}
+.cover-image-content {
+	display: none;
+}
+.image-container {
+	z-index: 1;
+}
+.
