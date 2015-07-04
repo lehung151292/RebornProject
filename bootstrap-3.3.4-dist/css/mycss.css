@@ -85,6 +85,10 @@ hr.white{
 	background-color: #EF3912;
 	border-color: #f05f40;
 }
+.btn-primary:target {
+	background-color: #EF3912;
+	border-color: #f05f40;
+}
 .btn-default{
 	background-color: #fff;
 	border-color: #fff;
@@ -138,10 +142,24 @@ section {
     margin: 0 auto;
     max-width: 650px;
 }
-.abox-hover{
+/*.abox-hover{
 	display: none;
 	background-color: rgba(240,95,64,.9); 
 }
 .img-responsive:hover {
 		
+}*/
+aside{
+	padding:50px 0;
+}
+aside.bg-primary {
+	background-color: #222;
+}
+.btn-success {
+	background-color: #FFFAF9;
+	color: #222;
+}
+.btn-success:hover{
+	background-color: #FFFAF9;
+	color: #222;
 }
