@@ -35,6 +35,13 @@ nav{
 	margin: 0 auto;
 	text-align: center;
 }
+@media (min-width: 768px){
+header .header-content-inner {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+}
+}
 .header-title {
 	padding-top: 90px;
 	color: white;
@@ -75,6 +82,7 @@ hr.white{
 	width: auto;
 	font-weight: lighter;
     font-size: 20px;
+  	padding: 0 100px;
 }
 .btn-primary {
 	background-color: #f05f40;
@@ -216,4 +224,11 @@ aside.bg-primary {
  .project-name {
 	font-size: 27px;
 	}
+}
+.contactp{
+	font-size: 17px;
+	font-weight: lighter;
+	font-family: cursive;
+	text-align: center;
+	padding:0 15px;
 }
