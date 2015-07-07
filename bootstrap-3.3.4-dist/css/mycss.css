@@ -176,6 +176,10 @@ aside.bg-primary {
 	background-color: #FFFAF9;
 	color: #222;
 }
+.btn-success:active {
+	background-color: #FFFAF9;
+	color: #222;
+}
 .cover-image{
 	position: absolute;
 	/*z-index: 2;*/
@@ -224,11 +228,4 @@ aside.bg-primary {
  .project-name {
 	font-size: 27px;
 	}
-}
-.contactp{
-	font-size: 17px;
-	font-weight: lighter;
-	font-family: cursive;
-	text-align: center;
-	padding:0 15px;
 }
