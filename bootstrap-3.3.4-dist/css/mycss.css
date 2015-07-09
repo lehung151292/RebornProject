@@ -16,6 +16,12 @@ nav{
 	background: rgba(54, 25, 25, .00004);	
 	position: fixed;
 }
+.navbar.darknavbar {
+	background: white;
+}
+.navbar.darknavbar .navbar-brand {
+	color: red;
+}
 .navbar .navbar-brand {
 	text-transform: uppercase;
 	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
