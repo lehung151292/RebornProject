@@ -21,18 +21,24 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
  </head>
- <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+ <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top affix-top" role="navigation">
       <div class="container-fluid">
-        <div class="navbar-header">          
-          <a class="navbar-brand" href="#">Reborn Project</a>
+        <div class="navbar-header">      
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+          </button>    
+          <a class="navbar-brand page-scroll" href="#page-top">Reborn Project</a>
         </div>
-        <div class="navbar-collapse collapse navbar-right">
+        <div class="navbar-collapse collapse navbar-right" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">PORTFOLIO</a></li>  
-            <li><a href="#">CONTACT</a></li>          
+            <li><a class="page-scroll" href="#about">ABOUT</a></li>
+            <li><a class="page-scroll" href="#services">SERVICES</a></li>
+            <li><a class="page-scroll" href="#portfolio">PORTFOLIO</a></li>  
+            <li><a class="page-scroll" href="#contact">CONTACT</a></li>          
           </ul>         
         </div><!--/.nav-collapse -->
       </div>
@@ -108,7 +114,7 @@
       <div class="container-fluid">
         <div class="row no-gutter">
 			<div class="col-lg-4 col-sm-6">
-				<div class="cover-image">
+			<!-- 	<div class="cover-image">
 					<div class="cover-image-content">
 						<div class="project-category text-faded">
 							Category
@@ -117,39 +123,105 @@
 							Project Name
 						</div>
 					</div>
-				</div>
-				<div class="image-container">
+				</div> -->
+				<!-- <div class="image-container"> -->
 					<a href="#" alt class="abox">
+            <div class="cover-image">
+              <div class="cover-image-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
 						<img src="img/portfolio/1.jpg" class="img-responsive">
 					</a>
-				</div>
+				<!-- </div> -->
 			</div>		  
           <div class="col-lg-4 col-sm-6">
            <a href="#" alt class="abox">
+            <div class="cover-image">
+              <div class="cover-image-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
             <img src="img/portfolio/2.jpg" class="img-responsive">
            </a>
           </div>
           <div class="col-lg-4 col-sm-6">
            <a href="#" alt class="abox">
+            <div class="cover-image">
+              <div class="cover-image-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
             <img src="img/portfolio/3.jpg" class="img-responsive">
-           <!--  <div class="abox-hover">
-              <p>CATEGORY</p>
-              <p>Project Name</p>
-            </div> -->
            </a>
           </div>
           <div class="col-lg-4 col-sm-6">
+            <div class="cover-image">
+              <div class="cover-image-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
            <a href="#" alt class="abox">
+            <div class="cover-image">
+              <div class="cover-image-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
             <img src="img/portfolio/4.jpg" class="img-responsive">
            </a>
           </div>
           <div class="col-lg-4 col-sm-6">
            <a href="#" alt class="abox">
+            <div class="cover-image">
+              <div class="cover-image-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
             <img src="img/portfolio/5.jpg" class="img-responsive">
            </a>
           </div>
           <div class="col-lg-4 col-sm-6">
            <a href="#" alt class="abox">
+            <div class="cover-image">
+              <div class="cover-image-content">
+                <div class="project-category text-faded">
+                  Category
+                </div>
+                <div class="project-name">
+                  Project Name
+                </div>
+              </div>
+            </div>
             <img src="img/portfolio/6.jpg" class="img-responsive">
            </a>
           </div>
@@ -157,21 +229,36 @@
       </div>
     </section>
     <aside class="bg-primary text-center">
-      <div class="containter">
+      <div class="container">
         <h2>Free Download at Start Bootstrap!</h2>
+        <hr>
         <button type="button" class="btn btn-success">DOWNLOAD NOW!</button>
       </div>
     </aside>
-
-
-
-
-
-
-
-
-
-
+    <section id="contact">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2>Let's Get In Touch!</h2>
+            <hr>
+            <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!
+            </p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-4 col-sm-6 col-lg-offset-2 col-xs-12 text-center">
+            <i class="fa fa-4x fa-mobile"></i>
+            <p>123-456-6789</p>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xs-12 text-center">
+            <i class="fa fa-4x fa-envelope-square"></i>
+            <p>
+              <a style="color:#f05f40" href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <!-- http://fittextjs.com/-->
@@ -182,5 +269,5 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
- </body>
+    <!-- my <script src="js/myjs.js"></script> js-->
 </html>
