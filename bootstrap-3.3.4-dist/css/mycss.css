@@ -20,7 +20,17 @@ nav{
 	background: white;
 }
 .navbar.darknavbar .navbar-brand {
-	color: red;
+	color: #f05f40;
+	font-weight: bold;
+}
+.navbar.darknavbar .navbar-nav>li>a{
+	color:#222;
+}
+.navbar.darknavbar .navbar-nav .active>a{
+	color:#f05f40;
+}
+.page-scroll{
+	color:#f05f40;
 }
 .navbar .navbar-brand {
 	text-transform: uppercase;
@@ -60,10 +70,6 @@ header .header-content-inner {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
 }
 /*@media (min-width: 1000px){
 header {
@@ -72,11 +78,11 @@ header {
 }*/
 header {
   position: relative;
-  height: 100%;
+  height: 105%;
   min-height: auto;
   text-align: center;
   color: #fff;
-    background-image: url('../img/header.jpg');
+   /* background-image: url('../img/spidey.jpg');*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
    background-size: cover;
@@ -113,6 +119,10 @@ hr.white{
 	background-color: #EF3912;
 	border-color: #f05f40;
 }
+.btn-primary:focus {
+	background-color: #EF3912;
+	border-color: #f05f40;
+}
 .btn-default{
 	background-color: #fff;
 	border-color: #fff;
@@ -140,6 +150,7 @@ section {
 	font-size: 17px;
 	font-weight: lighter;
 	font-family: cursive;
+	margin-bottom: 20px;
 }
 .service{
 	margin: 50px auto 0;
@@ -197,6 +208,10 @@ aside.bg-primary {
 	background-color: #FFFAF9;
 	color: #222;
 }
+.btn-success:focus {
+	background-color: #FFFAF9;
+	color: #222;
+}
 .cover-image{
 	position: absolute;
 	/*z-index: 2;*/
@@ -204,6 +219,9 @@ aside.bg-primary {
 	height: 100%;
 	text-align: center;
 	max-width: 650px;
+	-webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s
 }
 .cover-image:hover{
 	background-color: #f05f40;
@@ -217,7 +235,6 @@ aside.bg-primary {
 	position:relative;
 	top: 50%; 
 	transform: translateY(-50%); 
-
 }
 /*.image-container {
 	z-index: 1;

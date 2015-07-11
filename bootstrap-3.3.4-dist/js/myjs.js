@@ -17,3 +17,21 @@ $(window).scroll(function(){
 		}
 }
 );
+
+//active wow 
+new WOW().init();
+
+//random background when f5
+$(document).ready(function(){
+var images=['img/black1.jpg',
+            'img/black2.jpg',
+            'img/black3.jpg',
+            'img/black4.jpg',
+            'img/black5.jpg',];
+
+var randomNumber = Math.floor(Math.random() * images.length);
+var bgImg = 'url(' + images[randomNumber] + ')';
+
+$('header').css({'background':bgImg, 'background-size':'cover', });
+
+});
