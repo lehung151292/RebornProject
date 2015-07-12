@@ -35,3 +35,11 @@ var bgImg = 'url(' + images[randomNumber] + ')';
 $('header').css({'background':bgImg, 'background-size':'cover', });
 
 });
+
+//thay doi font khi co gian~ khung //
+    $("h1").fitText(
+        1.2, {
+            minFontSize: '35px',
+            maxFontSize: '65px'
+        }
+    );
