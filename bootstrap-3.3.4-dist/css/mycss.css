@@ -13,6 +13,7 @@ nav{
   width: 100%;
 }
 .navbar {
+	background: rgba(54, 25, 25, .00004);	
 	background: white;
 	font-weight: bold;
 	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
